@@ -13,7 +13,7 @@ $buku = query("SELECT * FROM buku");
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <title>Fikri's Book</title>
+  <title>Fikri's Library</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
@@ -25,7 +25,7 @@ $buku = query("SELECT * FROM buku");
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <div class="container" style="margin-left:30px;">
-          <h1>Fikri's Library</h1>
+          <h1>Fikri's Book</h1>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
