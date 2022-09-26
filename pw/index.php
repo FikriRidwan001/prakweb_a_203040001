@@ -25,7 +25,7 @@ $buku = query("SELECT * FROM buku");
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <div class="container" style="margin-left:30px;">
-          <h1>Fikri's Book</h1>
+          <h1>Fikri's Library</h1>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
