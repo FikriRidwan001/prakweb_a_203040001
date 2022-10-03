@@ -65,7 +65,7 @@ $buku = query("SELECT * FROM buku");
         <div class="col-sm-3">
           <div class="card" style="width: 18rem; height:700px; text-align:center;">
             <img src="img/<?= $bk["gambar_buku"]; ?>" class="card-img-top" style="height:378px; width:286,5px;" alt="...">
-            <div class="card-body">
+            <div class="card-body" style="background-color: black; color:white;">
               <h5 class="card-title"></h5>
               <h3 class="card-text"><?= $bk["judul_buku"]; ?></h3>
               <p class="card-text">Penerbit : <?= $bk["nama_penerbit"]; ?></p>
